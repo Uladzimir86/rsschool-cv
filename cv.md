@@ -17,3 +17,6 @@
 
 ## Education:
    BSUIR, Military faculty (2004-2009)
+
+## Languages: 
+   English (B2)
