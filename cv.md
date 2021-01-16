@@ -12,3 +12,8 @@
    * HTML & CSS
    * GIT 
    
+## Work experience:
+
+
+## Education:
+   BSUIR, Military faculty (2004-2009)
