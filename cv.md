@@ -7,3 +7,8 @@
 
 ## Objective:
    Extremely motivated for career change goal. Highly organized and detail-oriented. Teamwork, analytical thinking. Excellent written and verbal communication skills. Engineer with over ten years telecommunications industry experience.
+
+## Skills:
+   * HTML & CSS
+   * GIT 
+   
