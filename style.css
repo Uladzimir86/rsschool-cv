@@ -58,6 +58,9 @@ main h2 {
   margin-top: 0;
   margin-bottom: 20px;
 }
+main p {
+  margin-left: 40px;
+}
 .main_section {
   border-bottom: 2px solid rgba(236, 228, 228, 0.363);
   padding: 20px 0;
