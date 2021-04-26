@@ -8,16 +8,14 @@
   </head>
   <body>
     <header class="header">
-      <div class="main_contain">
-        <div class="header_main_contain">
-          <div class="foto">
-            <img src="myphoto.jpg" alt="avatar">
-          </div>
+      <div class="wrapper">
+        <div class="header__wrapper">
+          <img src="myphoto.jpg" alt="avatar" class="foto">
           <h1>Uladzimir Sakhonchyk</h1>
-          <nav class="header_nav">
+          <nav class="header__nav">
             <ul>
-              <li>email: olodja@rambler.ru</li>
-              <li>phone number: +375 29 193 06 11</li>
+              <li class="header__item">email: olodja@rambler.ru</li>
+              <li class="header__item">phone number: +375 29 193 06 11</li>
             </ul>
           </nav>
         </div>
@@ -25,9 +23,8 @@
     </header>
     
     <main>
-      <div class="main_contain">
-        
-        <section class="main_section">
+      <div>
+        <section class="section">
           <h2>Objective:</h2>
           <p>
             Extremely motivated for career change goal. Highly organized and
@@ -36,41 +33,61 @@
             telecommunications industry experience.
           </p>
         </section>
-        
-        <section class="main_section">
+        <section class="section">
           <h2>Skills:</h2>
-            <ul class="main_section_list">
-              <li>HTML & CSS</li>
-              <li>GIT</li>
-              <li>JavaScript</li>
+            <ul class="section__list">
+              <li class="section__item">HTML
+                <ul class="section__nested-list">
+                  <li>Bacics, form and validations</li>
+                </ul>
+              </li>
+              <li class="section__item">CSS
+                <ul class="section__nested-list">
+                  <li>Bacics, responsive design and media queries</li>
+                </ul>
+              </li>
+              <li class="section__item">JavaScript
+                <ul class="section__nested-list">
+                  <li>Syntax and basic constructs, DOM manipulation</li>
+                </ul>
+              </li>
+              <li class="section__item">GIT</li>
             </ul>
-            
         </section>
-        
-        <section class="main_section">
+        <section class="section">
           <h2>Work experience:</h2>
-            <p>
-              <a href="https://github.com/Uladzimir86" target="_blank">
-                github.com
-              </a>
-            </p>            
-            <p>
-              <a href="https://www.codewars.com/users/Uladzimir86" target="_blank">
-                codewars.com
-              </a>
-            </p>            
+            <ul class="section__list">
+              <li class="section__item">Site layouts from Figma:
+                <ul class="section__nested-list">
+                  <li><a href="https://uladzimir86-wildlife.netlify.app/" class="link" target="_blank">Wildlife (width: 1440px)</a></li>
+                  <li><a href="https://rolling-scopes-school.github.io/uladzimir86-JSFE2021Q1/online-zoo" class="link" target="_blank">
+                    Online-zoo (width: 1600px, 1000px, 640px, 320px)</a></li>
+                </ul class="section__nested-list">
+              </li>
+              <li class="section__item">JS projects:
+                <ul class="section__nested-list">
+                  <li><a href="http://uladzimir86.github.io/virtual-piano/" class="link" target="_blank">Virtual-piano</a></li>
+                  <li><a href="https://rolling-scopes-school.github.io/uladzimir86-JSFE2021Q1/photo-filter" class="link" target="_blank">Photo-filter</a></li>
+                </ul>
+              </li>
+              <li class="section__item">Self introduction:
+                <ul class="section__nested-list">
+                  <li><a href="https://www.youtube.com/watch?v=D6Oojc6HAlM" class="link" target="_blank">www.youtube.com</a></li>
+                </ul>
+              </li>
+            </ul>         
         </section>
-        
-        <section class="main_section">
+        <section class="section">
           <h2>Education:</h2>
-            <p>BSUIR, Military faculty (2004-2009)</p>
+          <ul class="section__list">
+            <li>BSUIR, Military faculty (2004-2009)</li>
+            <li>Rolling Scopes School, JavaScript/Front-end 2021Q1 (currently)</li>
+          </ul>
         </section>
-        
-        <section class="main_section">
+        <section class="section">
           <h2>Languages:</h2>
           <p>English (A2)</p>
         </section>
-
       </div>   
     </main>
     
@@ -80,6 +97,5 @@
         <img src="rs_school_js.svg" alt="RS-school.svg">
       </a>
     </footer>
-
   </body>
 </html>
